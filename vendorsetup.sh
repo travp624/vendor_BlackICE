@@ -8,8 +8,8 @@ add_lunch_combo BlackICE_p4-userdebug
 add_lunch_combo BlackICE_p4vzw-userdebug
 add_lunch_combo BlackICE_p4wifi-userdebug
 add_lunch_combo BlackICE_shadow-userdebug
+add_lunch_combo BlackICE_sholes-userdebug
 add_lunch_combo BlackICE_stingray-userdebug
-#add_lunch_combo BlackICE_stingray_cdma-userdebug
 add_lunch_combo BlackICE_supersonic-userdebug
 add_lunch_combo BlackICE_tenderloin-userdebug
 add_lunch_combo BlackICE_vzwtab-userdebug

@@ -4,7 +4,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=IML74K BUILD_VERSION_TAGS=relea
 # Rom Manager properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.rommanager.developerid=StyGian Studios(travp624) \
-    ro.modversion=$(TARGET_PRODUCT)-Kangorade-28.29
+    ro.modversion=$(TARGET_PRODUCT)-Kangorade-28.99
+
+# jit enabler
+ADDITIONAL_PRODUCT_PROPERTIES += \
+    dalvik.vm.excution-mode=int:fast
 
 # Goo updater app
 PRODUCT_PROPERTY_OVERRIDES += \

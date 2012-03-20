@@ -14,7 +14,6 @@ PRODUCT_PACKAGES += \
         LiveWallpapers \
         LiveWallpapersPicker \
         VisualizationWallpapers \
-        librs_jni \
-        Trebuchet
+        librs_jni
     
     
