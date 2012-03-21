@@ -4,6 +4,9 @@ $(call inherit-product, device/samsung/maguro/full_maguro.mk)
 # Inherit common product files.
 $(call inherit-product, vendor/BlackICE/configs/common_phone.mk)
 
+# Inherit GSM common stuff
+$(call inherit-product, vendor/BlackICE/configs/gsm.mk)
+
 # Tuna overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/BlackICE/overlay/tuna
 PRODUCT_PACKAGE_OVERLAYS += vendor/BlackICE/overlay/maguro
