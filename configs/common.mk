@@ -16,17 +16,15 @@ PRODUCT_PACKAGES += \
     su
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.com.android.wifi-watchlist=GoogleGuest \
-    ro.com.google.clientidbase=android-google \
-    ro.com.google.locationfeatures=1 \
-    ro.error.receiver.system.apps=com.google.android.feedback \
-    ro.kernel.android.checkjni=0 \
-    ro.setupwizard.enterprise_mode=1 \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
     ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
+    ro.com.google.clientidbase=android-google \
+    ro.com.android.wifi-watchlist=GoogleGuest \
+    ro.error.receiver.system.apps=com.google.android.feedback \
+    ro.com.google.locationfeatures=1 \
+    ro.setupwizard.enterprise_mode=1 \
     windowsmgr.max_events_per_sec=240 \
-    
-    
+    ro.kernel.android.checkjni=0
 
 # Blobs common to all devices
 PRODUCT_COPY_FILES += \
@@ -81,7 +79,6 @@ PRODUCT_COPY_FILES += \
 # Copy Apex!! FTW!
 PRODUCT_COPY_FILES += \
     vendor/BlackICE/prebuilt/common/app/ApexLauncher.apk:system/app/ApexLauncher.apk
-#    vendor/BlackICE/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk    
 
 # Inherit common build.prop overrides
 -include vendor/BlackICE/configs/common_versions.mk
