@@ -9,7 +9,7 @@ PRODUCT_PACKAGES += \
     MusicVisualization \
     NoiseField \
     PhaseBeam \
-    ROMControl \
+    BlackICEControl \
     Superuser \
     Trebuchet \
     libcyanogen-dsp \
