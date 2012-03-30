@@ -1,4 +1,4 @@
-Android Open Kang Project
+Black ICE (team ICEmods)
 =========================
 
 
@@ -12,7 +12,7 @@ Please see the [Android source page](http://source.android.com/source/index.html
 
 To initialize your local repository using my trees, use the following command:
 
-    repo init -u https://github.com/BlackICE/platform_manifest.git -b master
+    repo init -u https://github.com/travp624/platform_manifest.git -b master
 
 Then to sync up:
 
@@ -38,6 +38,6 @@ You can also build a flashable zip with
     
 Special Thanks
 --------------
-Huge shout out to #teamkang and peter alfonso for their wonderfully clean vendor tree to use as a base. This makes this infinitely more oragnized and easier to work with. Thank him!
+Huge shout out to #teamkang (aokp) and peter alfonso for their wonderfully clean vendor tree to use as a base. This makes this infinitely more oragnized and easier to work with. Thanks to them and everyone included cm team, zaphod, sethyx, whitehawkx, protek, this list could keep going and going!
 
 
