@@ -22,7 +22,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Goo updater app
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.goo.developerid=Team ICEmods \
+    ro.goo.developerid=TeamICEmods \
     ro.goo.rom=$(TARGET_PRODUCT) \
     ro.goo.version=1
 
