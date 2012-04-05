@@ -5,7 +5,7 @@
 $(call inherit-product, vendor/BlackICE/configs/common_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/moto/shadow/full_shadow.mk)
+$(call inherit-product, device/moto/shadow/shadow.mk)
 
 # Inherit our vendor filez, yo.
 $(call inherit-product, vendor/moto/shadow/shadow-vendor.mk)
