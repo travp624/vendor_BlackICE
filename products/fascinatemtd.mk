@@ -20,4 +20,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SCH-I500 TARGET_DEVICE=SCH-I500 BUI
 
 # boot animation
 PRODUCT_COPY_FILES += \
-	vendor/BlackICE/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
+	vendor/BlackICE/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip

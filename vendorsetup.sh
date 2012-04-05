@@ -2,7 +2,7 @@ add_lunch_combo BlackICE_maguro-userdebug
 add_lunch_combo BlackICE_toro-userdebug
 add_lunch_combo BlackICE_crespo-userdebug
 add_lunch_combo BlackICE_crespo4g-userdebug
-# add_lunch_combo BlackICE_fascinatemtd-userdebug
+add_lunch_combo BlackICE_fascinatemtd-userdebug
 add_lunch_combo BlackICE_inc-userdebug
 # add_lunch_combo BlackICE_otter-userdedug
 add_lunch_combo BlackICE_p4-userdebug
