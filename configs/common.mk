@@ -24,7 +24,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.locationfeatures=1 \
     ro.setupwizard.enterprise_mode=1 \
     windowsmgr.max_events_per_sec=240 \
-    ro.kernel.android.checkjni=0
 
 # Blobs common to all devices
 PRODUCT_COPY_FILES += \
