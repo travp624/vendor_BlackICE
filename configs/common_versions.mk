@@ -1,7 +1,7 @@
 # Version information used on all builds
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=IMM76D BUILD_VERSION_TAGS=release-keys USER=android-build BUILD_UTC_DATE=$(shell date +"%s")
 
-CURRENT_VERSION=$(TARGET_PRODUCT)-Kangorade-30.30
+CURRENT_VERSION=$(TARGET_PRODUCT)-Kangorade-31.31
 
 ifneq ($(TARGET_PRODUCT),BlackICE_p999)
     ifeq ($(TARGET_PRODUCT),BlackICE_p990)
@@ -18,6 +18,7 @@ endif
 
 # Rom Manager properties
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.modversion=$(CURRENT_VERSION) \
     ro.rommanager.developerid=Team ICEmods \
 
 # Goo updater app
