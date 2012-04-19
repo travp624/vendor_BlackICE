@@ -10,7 +10,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/BlackICE/overlay/toro
 
 # Make toro respect verizon why I don't know
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.com.google.clientidbase=android-verizon \
+	ro.com.google.clientidbase=android-verizon 
 
 # Setup device specific product configuration.
 PRODUCT_NAME := BlackICE_toro
@@ -23,8 +23,8 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=mysid BUILD_ID=ICL53F BUILD_FINGERP
 
 # Copy toro specific prebuilt files
 PRODUCT_COPY_FILES +=  \
-    vendor/BlackICE/prebuilt/tuna/Thinkfree.apk:system/app/Thinkfree.apk \
-    vendor/BlackICE/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip \
-    vendor/BlackICE/prebuilt/tuna/vold.fstab:system/etc/vold.fstab
+	vendor/BlackICE/prebuilt/tuna/Thinkfree.apk:system/app/Thinkfree.apk \
+	vendor/BlackICE/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip \
+	vendor/BlackICE/prebuilt/tuna/vold.fstab:system/etc/vold.fstab
 
 
