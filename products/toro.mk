@@ -8,10 +8,6 @@ $(call inherit-product, vendor/BlackICE/configs/common_phone.mk)
 PRODUCT_PACKAGE_OVERLAYS += vendor/BlackICE/overlay/tuna
 PRODUCT_PACKAGE_OVERLAYS += vendor/BlackICE/overlay/toro
 
-# Make toro respect verizon why I don't know
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.com.google.clientidbase=android-verizon 
-
 # Setup device specific product configuration.
 PRODUCT_NAME := BlackICE_toro
 PRODUCT_BRAND := google
