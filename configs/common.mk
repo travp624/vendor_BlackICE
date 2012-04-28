@@ -3,6 +3,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/BlackICE/overlay/common
 
 PRODUCT_PACKAGES += \
     AppWidgetPicker \
+    CM9Music \
     DSPManager \
     FileManager \
     MusicFX \

@@ -19,11 +19,11 @@ endif
 # Rom Manager properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=$(CURRENT_VERSION) \
-    ro.rommanager.developerid=Team ICEmods \
+    ro.rommanager.developerid=travp624 \
 
 # Goo updater app
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.goo.developerid=TeamICEmods \
+    ro.goo.developerid=travp624 \
     ro.goo.rom=$(TARGET_PRODUCT) \
     ro.goo.version=1
 
