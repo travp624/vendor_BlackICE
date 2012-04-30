@@ -3,16 +3,17 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/BlackICE/overlay/common
 
 PRODUCT_PACKAGES += \
     AppWidgetPicker \
-    CM9Music \
+    BlackICEControl \
     DSPManager \
     FileManager \
     MusicFX \
     MusicVisualization \
     NoiseField \
     PhaseBeam \
-    BlackICEControl \
+    Superuser \
     Trebuchet \
-    libcyanogen-dsp
+    libcyanogen-dsp \
+    su
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
@@ -77,10 +78,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
-# Copy Apex!! FTW!
+# Copy Apex!! FTW! add CM9Music app!
 PRODUCT_COPY_FILES += \
     vendor/BlackICE/prebuilt/common/app/ApexLauncher.apk:system/app/ApexLauncher.apk \
-    vendor/BlackICE/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk
+    vendor/BlackICE/prebuilt/common/app/CM9Music.apk:system/app/CM9Music.apk
 
 # Inherit common build.prop overrides
 -include vendor/BlackICE/configs/common_versions.mk
