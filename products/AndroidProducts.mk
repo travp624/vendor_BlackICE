@@ -13,5 +13,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/sholes.mk \
     $(LOCAL_DIR)/tenderloin.mk \
     $(LOCAL_DIR)/toro.mk \
+    $(LOCAL_DIR)/toroplus.mk \
     $(LOCAL_DIR)/vivow.mk \
-    $(LOCAL_DIR)/wingray.mk
+    $(LOCAL_DIR)/wingray.mk \
