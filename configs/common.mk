@@ -50,7 +50,8 @@ PRODUCT_COPY_FILES += \
     vendor/BlackICE/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
     vendor/BlackICE/prebuilt/common/etc/init_trigger.disabled:system/etc/init_trigger.disabled \
     vendor/BlackICE/prebuilt/common/etc/liberty.bsh:system/etc/liberty.bsh \
-    vendor/BlackICE/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf
+    vendor/BlackICE/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
+    vendor/BlackICE/prebuilt/common/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf
 
 # Cron
 PRODUCT_COPY_FILES += \
