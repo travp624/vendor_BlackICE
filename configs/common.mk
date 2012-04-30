@@ -5,7 +5,6 @@ PRODUCT_PACKAGES += \
     AppWidgetPicker \
     DSPManager \
     FileManager \
-    Music \
     MusicFX \
     MusicVisualization \
     NoiseField \
@@ -80,7 +79,8 @@ PRODUCT_COPY_FILES += \
 
 # Copy Apex!! FTW!
 PRODUCT_COPY_FILES += \
-    vendor/BlackICE/prebuilt/common/app/ApexLauncher.apk:system/app/ApexLauncher.apk
+    vendor/BlackICE/prebuilt/common/app/ApexLauncher.apk:system/app/ApexLauncher.apk \
+    vendor/BlackICE/prebuilt/common/app/Music.apk:system/app/Music.apk
 
 # Inherit common build.prop overrides
 -include vendor/BlackICE/configs/common_versions.mk
