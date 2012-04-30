@@ -11,10 +11,8 @@ PRODUCT_PACKAGES += \
     NoiseField \
     PhaseBeam \
     BlackICEControl \
-    Superuser \
     Trebuchet \
-    libcyanogen-dsp \
-    su
+    libcyanogen-dsp
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
@@ -34,7 +32,8 @@ PRODUCT_COPY_FILES += \
     vendor/BlackICE/prebuilt/common/app/Microbes.apk:system/app/Microbes.apk \
     vendor/BlackICE/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
     vendor/BlackICE/prebuilt/common/etc/init.local.rc:system/etc/init.local.rc \
-    vendor/BlackICE/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache
+    vendor/BlackICE/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
+    vendor/BlackICE/prebuilt/common/xbin/su:system/xbin/su
 
 # init.d
 PRODUCT_COPY_FILES += \
@@ -80,7 +79,8 @@ PRODUCT_COPY_FILES += \
 
 # Copy Apex!! FTW!
 PRODUCT_COPY_FILES += \
-    vendor/BlackICE/prebuilt/common/app/ApexLauncher.apk:system/app/ApexLauncher.apk
+    vendor/BlackICE/prebuilt/common/app/ApexLauncher.apk:system/app/ApexLauncher.apk \
+    vendor/BlackICE/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk
 
 # Inherit common build.prop overrides
 -include vendor/BlackICE/configs/common_versions.mk
