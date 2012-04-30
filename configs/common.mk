@@ -3,6 +3,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/BlackICE/overlay/common
 
 PRODUCT_PACKAGES += \
     AppWidgetPicker \
+    CM9Music \
     DSPManager \
     FileManager \
     MusicFX \
@@ -79,8 +80,7 @@ PRODUCT_COPY_FILES += \
 
 # Copy Apex!! FTW!
 PRODUCT_COPY_FILES += \
-    vendor/BlackICE/prebuilt/common/app/ApexLauncher.apk:system/app/ApexLauncher.apk \
-    vendor/BlackICE/prebuilt/common/app/Music.apk:system/app/Music.apk
+    vendor/BlackICE/prebuilt/common/app/ApexLauncher.apk:system/app/ApexLauncher.apk
 
 # Inherit common build.prop overrides
 -include vendor/BlackICE/configs/common_versions.mk
