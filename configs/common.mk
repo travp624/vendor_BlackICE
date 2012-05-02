@@ -80,7 +80,6 @@ PRODUCT_COPY_FILES += \
 # Copy Apex!! FTW! add CM9Music app!
 PRODUCT_COPY_FILES += \
     vendor/BlackICE/prebuilt/common/app/ApexLauncher.apk:system/app/ApexLauncher.apk \
-    vendor/BlackICE/prebuilt/common/app/CM9Music.apk:system/app/CM9Music.apk
 
 # Inherit common build.prop overrides
 -include vendor/BlackICE/configs/common_versions.mk
