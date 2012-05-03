@@ -24,7 +24,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=travp624 \
     ro.goo.rom=$(TARGET_PRODUCT) \
-    ro.goo.version=2
+    ro.goo.version=3
 
 # Camera shutter sound property
 PRODUCT_PROPERTY_OVERRIDES += \
