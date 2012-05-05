@@ -1,5 +1,8 @@
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
+
 $(call inherit-product, device/amazon/otter/device.mk)
 $(call inherit-product, vendor/BlackICE/configs/common_tablet.mk)
+$(call inherit-product-if-exists, vendor/amazon/otter/otter-vendor.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := BlackICE_otter
@@ -8,3 +11,7 @@ PRODUCT_BRAND := Android
 PRODUCT_MODEL := Amazon Kindle Fire
 PRODUCT_MANUFACTURER := Amazon
 PRODUCT_RELEASE_NAME := KFire
+
+# boot animation
+PRODUCT_COPY_FILES += \
+	vendor/BlackICE/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
