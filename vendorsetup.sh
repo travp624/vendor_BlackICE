@@ -1,6 +1,7 @@
 add_lunch_combo BlackICE_maguro-userdebug
 add_lunch_combo BlackICE_toro-userdebug
 add_lunch_combo BlackICE_toroplus-userdebug
+add_lunch_combo BlackICE_otter-userdebug
 add_lunch_combo BlackICE_shadow-userdebug
 add_lunch_combo BlackICE_stingray-userdebug
 add_lunch_combo BlackICE_tenderloin-userdebug
