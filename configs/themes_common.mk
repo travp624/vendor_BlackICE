@@ -1,5 +1,6 @@
 # T-Mobile theme engine
 PRODUCT_PACKAGES += \
+       Androidian \
        ThemeManager \
        ThemeChooser \
        com.tmobile.themes
