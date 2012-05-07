@@ -81,5 +81,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/BlackICE/prebuilt/common/app/ApexLauncher.apk:system/app/ApexLauncher.apk \
 
+# T-Mobile theme engine
+include vendor/BlackICE/configs/themes_common.mk
+
 # Inherit common build.prop overrides
 -include vendor/BlackICE/configs/common_versions.mk
