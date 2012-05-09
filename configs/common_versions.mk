@@ -3,21 +3,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=IMM76I BUILD_VERSION_TAGS=relea
 
 CURRENT_VERSION=$(TARGET_PRODUCT)-Kangorade-34.80
 
-ifneq ($(TARGET_PRODUCT),BlackICE_p999)
-    ifeq ($(TARGET_PRODUCT),BlackICE_p990)
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.cm.version=9.0.0-$(CURRENT_VERSION)
-    else
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=$(CURRENT_VERSION)
-    endif
-else
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.cm.version=9.0.0-$(CURRENT_VERSION)
-endif
-
 # Rom Manager properties
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.modversion=$(CURRENT_VERSION) \
     ro.rommanager.developerid=travp624 
 
 # Goo updater app
