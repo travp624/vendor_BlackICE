@@ -26,6 +26,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	windowsmgr.max_events_per_sec=240 \
 	ro.kernel.android.checkjni=0
 
+# Live wallpapers for all
+PRODUCT_PACKAGES += \
+    LiveWallpapers \
+    LiveWallpapersPicker \
+    MagicSmokeWallpapers \
+    VisualizationWallpapers \
+    librs_jni
+
+PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
+
 # Blobs common to all devices
 PRODUCT_COPY_FILES += \
     vendor/BlackICE/prebuilt/common/app/LatinImeDictionaryPack.apk:system/app/LatinImeDictionaryPack.apk \
