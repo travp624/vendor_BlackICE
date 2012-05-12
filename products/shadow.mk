@@ -10,6 +10,9 @@ $(call inherit-product, device/moto/shadow/shadow.mk)
 # Inherit our vendor filez, yo.
 $(call inherit-product, vendor/moto/shadow/shadow-vendor.mk)
 
+# shadow overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/BlackICE/overlay/shadow
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := BlackICE_shadow
 PRODUCT_BRAND := verizon
