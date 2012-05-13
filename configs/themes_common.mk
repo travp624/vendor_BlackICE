@@ -1,7 +1,8 @@
 # T-Mobile theme engine
 PRODUCT_PACKAGES += \
        Androidian \
-       HoloRed \
+       ICEOrange \
+       ICERed \
        ThemeManager \
        ThemeChooser \
        com.tmobile.themes
