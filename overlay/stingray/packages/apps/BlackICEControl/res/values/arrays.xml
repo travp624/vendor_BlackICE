@@ -12,21 +12,29 @@
 		<item>DATA</item>
 		<item>LTE</item>
 		<item>AP</item>
+        <item>TETHER</item>
 		<item>TORCH</item>
+        <item>MEDIA_NEXT</item>
+        <item>MEDIA_PLAY</item>
+        <item>MEDIA_PREVIOUS</item>
 	</string-array>
 	
 	<string-array name="available_toggles_values">
 		<item>Auto-rotate</item>
 		<item>BT</item>
 		<item>GPS</item>
-		<item>Wi-Fi</item>
+		<item>Wifi</item>
 		<item>Airplane mode</item>
 		<item>Silent</item>
 		<item>Sync</item>
 		<item>Data</item>
 		<item>4G LTE</item>
-		<item>Tethering (AP)</item>
+		<item>Wifi Tethering(AP)</item>
+        <item>USB Tether</item>
 		<item>Torch</item>
+        <item>Media Next</item>
+        <item>Media Play</item>
+        <item>Media Previous</item>
 	</string-array>
 
 </resources>

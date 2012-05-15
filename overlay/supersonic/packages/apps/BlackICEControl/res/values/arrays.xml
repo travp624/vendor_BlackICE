@@ -12,7 +12,11 @@
 		<item>SYNC</item>
 		<item>DATA</item>
 		<item>AP</item>
+        <item>TETHER</item>
 		<item>TORCH</item>
+        <item>MEDIA_NEXT</item>
+        <item>MEDIA_PLAY</item>
+        <item>MEDIA_PREVIOUS</item>
 	</string-array>
 	
 	<string-array name="available_toggles_values">
@@ -25,8 +29,12 @@
 		<item>Silent</item>
 		<item>Sync</item>
 		<item>Data</item>
-		<item>Tethering (AP)</item>
+		<item>Wifi Tethering(AP)</item>
+        <item>USB Tether</item>
 		<item>Torch</item>
+        <item>Media Next</item>
+        <item>Media Play</item>
+        <item>Media Previous</item>
 	</string-array>
 
 </resources>
