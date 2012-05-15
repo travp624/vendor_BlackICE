@@ -26,6 +26,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	windowsmgr.max_events_per_sec=240 \
 	ro.kernel.android.checkjni=0
 
+
+# Camera shutter sound property
+PRODUCT_PROPERTY_OVERRIDES += \
+	persist.sys.camera-sound=1
+
 # Live wallpapers for all
 PRODUCT_PACKAGES += \
     LiveWallpapers \
