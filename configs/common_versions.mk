@@ -10,4 +10,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=travp624 \
     ro.goo.rom=$(TARGET_PRODUCT) \
-    ro.goo.version=4
+    ro.goo.version=5
