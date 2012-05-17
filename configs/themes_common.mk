@@ -1,6 +1,6 @@
 # T-Mobile theme engine
 PRODUCT_PACKAGES += \
-       Androidian \
+       ICEBlu \
        ICEGreen \
        ICEOrange \
        ICERed \
