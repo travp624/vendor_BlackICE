@@ -2,6 +2,7 @@
 PRODUCT_PACKAGE_OVERLAYS += vendor/BlackICE/overlay/common
 
 PRODUCT_PACKAGES += \
+    Apollo \
     AppWidgetPicker \
     BlackICEControl \
     DSPManager \
