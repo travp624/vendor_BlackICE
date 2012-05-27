@@ -1,5 +1,6 @@
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/BlackICE/overlay/common
+PRODUCT_PACKAGE_OVERLAYS += vendor/BlackICE/overlay/dictionaries
 
 PRODUCT_PACKAGES += \
     Apollo \
