@@ -15,5 +15,7 @@ PRODUCT_PACKAGES += \
         LiveWallpapersPicker \
         VisualizationWallpapers \
         librs_jni
-    
-    
+
+# Inherit drm blobs
+-include vendor/BlackICE/configs/common_drm_phone.mk
+
