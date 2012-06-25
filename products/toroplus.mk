@@ -6,7 +6,7 @@ $(call inherit-product, vendor/BlackICE/configs/common_phone.mk)
 
 # Tuna overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/BlackICE/overlay/tuna
-PRODUCT_PACKAGE_OVERLAYS += vendor/BlackICE/overlay/toro
+PRODUCT_PACKAGE_OVERLAYS += vendor/BlackICE/overlay/toroplus
 
 # Setup device specific product configuration.
 PRODUCT_NAME := BlackICE_toroplus

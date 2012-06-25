@@ -1,44 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string-array name="available_toggles_entries">
-		<item>ROTATE</item>
-		<item>BT</item>
-		<item>GPS</item>
-		<item>WIFI</item>
-		<item>AIRPLANE_MODE</item>
-		<item>VIBRATE</item>
-		<item>SILENT</item>
-		<item>SYNC</item>
-		<item>DATA</item>
-		<item>2G</item>
-		<item>AP</item>
-		<item>TETHER</item>
-		<item>TORCH</item>
-		<item>FCHARGE</item>
+    <string-array name="available_toggles_entries">
+        <item>ROTATE</item>
+        <item>BT</item>
+        <item>GPS</item>
+        <item>WIFI</item>
+        <item>AIRPLANE_MODE</item>
+        <item>VIBRATE</item>
+        <item>SILENT</item>
+        <item>SYNC</item>
+        <item>DATA</item>
+        <item>2G</item>
+        <item>AP</item>
+        <item>TETHER</item>
+        <item>TORCH</item>
+        <item>FCHARGE</item>
         <item>MEDIA_NEXT</item>
         <item>MEDIA_PLAY</item>
         <item>MEDIA_PREVIOUS</item>
-	</string-array>
-	
-	<string-array name="available_toggles_values">
-		<item>Auto-rotate</item>
-		<item>BT</item>
-		<item>GPS</item>
-		<item>Wifi</item>
-		<item>Airplane mode</item>
-		<item>Vibrate</item>
-		<item>Silent</item>
-		<item>Sync</item>
-		<item>Data</item>
-		<item>2G</item>
-		<item>Wifi Tether(AP)</item>
-		<item>USB Tether</item>
-		<item>Torch</item>
-		<item>Fast charge</item>
+        <item>NFC</item>
+    </string-array>
+
+    <string-array name="available_toggles_values">
+        <item>Auto-rotate</item>
+        <item>BT</item>
+        <item>GPS</item>
+        <item>Wifi</item>
+        <item>Airplane mode</item>
+        <item>Vibrate</item>
+        <item>Silent</item>
+        <item>Sync</item>
+        <item>Data</item>
+        <item>2G</item>
+        <item>Wifi Tether(AP)</item>
+        <item>USB Tether</item>
+        <item>Torch</item>
+        <item>Fast charge</item>
         <item>Media Next</item>
         <item>Media Play</item>
         <item>Media Previous</item>
-	</string-array>
+        <item>NFC</item>
+    </string-array>
 
 </resources>
