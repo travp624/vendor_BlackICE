@@ -1,6 +1,7 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/crespo.mk \
     $(LOCAL_DIR)/crespo4g.mk \
+    $(LOCAL_DIR)/endeavoru.mk \
     $(LOCAL_DIR)/espressowifi.mk \
     $(LOCAL_DIR)/fascinatemtd.mk \
     $(LOCAL_DIR)/inc.mk \
