@@ -4,10 +4,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=IMM76I BUILD_VERSION_TAGS=relea
 # Rom Manager properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.rommanager.developerid=travp624 \
-    ro.blackice.version=$(TARGET_PRODUCT)_Kangorade-40
+    ro.blackice.version=$(TARGET_PRODUCT)_Kangorade-40.1
 
 # Goo updater app
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=travp624 \
     ro.goo.rom=$(TARGET_PRODUCT) \
-    ro.goo.version=10
+    ro.goo.version=11
