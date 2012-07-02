@@ -1,7 +1,7 @@
 # T-Mobile theme engine
 PRODUCT_PACKAGES += \
     Achromatic \
-    ICEBlu \
+    ICEBlue \
     ICEGreen \
     ICEOrange \
     ICEPurple \
