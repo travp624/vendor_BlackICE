@@ -13,8 +13,8 @@
         <item>DATA</item>
         <item>2G</item>
         <item>AP</item>
-        <item>TETHER</item>
-        <item>FCHARGE</item>
+        <item>TORCH</item>
+        <item>NFC</item>
         <item>MEDIA_NEXT</item>
         <item>MEDIA_PLAY</item>
         <item>MEDIA_PREVIOUS</item>
@@ -24,16 +24,16 @@
         <item>Auto-rotate</item>
         <item>BT</item>
         <item>GPS</item>
-        <item>Wifi</item>
+        <item>Wi-Fi</item>
         <item>Airplane mode</item>
         <item>Vibrate</item>
         <item>Silent</item>
         <item>Sync</item>
         <item>Data</item>
         <item>2G</item>
-        <item>Wifi Tether(AP)</item>
-        <item>USB Tether</item>
-        <item>Fast charge</item>
+        <item>Tethering (AP)</item>
+        <item>Torch</item>
+        <item>NFC</item>
         <item>Media Next</item>
         <item>Media Play</item>
         <item>Media Previous</item>

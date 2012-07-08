@@ -15,4 +15,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-P7500 BUILD_ID=IML74K BUILD_FING
 PRODUCT_RELEASE_NAME := p4
 
 PRODUCT_COPY_FILES +=  \
-    vendor/BlackICE/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/BlackICE/prebuilt/common_tablet/bootanimation.zip:system/media/bootanimation.zip
